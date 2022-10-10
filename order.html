@@ -1,3 +1,7 @@
+<!--
+  Beaudoin, Félix     (20244864)
+  Radwan, Tarek       (20231177)
+-->
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -17,16 +21,45 @@
 
   </header>
   <main>
-    
+    <h1>page de commande</h1>
+    <h3>contact:</h3>
+    <form action="confirmation.html">
+      <p>
+      <label for="firstname">prénom:</label>
+      <input name="prénom" id="firstname" type="text" required>
+    </p>
+    <p>
+      <label for="lastname">nom:</label>
+      <input name="nom" id="lastname" type="text" required>
+    </p>
+    <p>
+      <label for="email">adresse courielle:</label>
+      <input name="adresse courielle" id="email" type="email" required>
+    </p>
+    <p>
+    <label for="phone">numéro de téléphone:</label>
+    <input name="numéro de téléphone" id="phone" type="number" required >
+    </p>
+    <h3>Paiement:</h3>
+    <p>
+    <label for="creditcard">Numéro de carte de crédit:</label>
+    <input name="Numéro de carte de crédit" id="creditcard" type="number" required >
+    </p>
+    <p>
+      <label for="creditcardexpiry">Date d’expiration de la carte:</label>
+      <input name="Date d’expiration de la carte" id="creditcardexpiry" type="date" required >
+      </p>
+      <a href="confirmation.html" target="_blank" rel="noopener">
+        <input type="submit" value="Payer">
+      </a>
+    </form>
   </main>
 
   <footer>
-    <p>
-      Beaudoin, Félix, 20244864<br>
-      , Amir, <br>
-      , Tarek <br>
-    
-    </p>
+      <ul>
+        <li>Beaudoin, Félix (20244864)</li>
+        <li>Radwan, Tarek (20231177)</li>
+      </ul>
   </footer>
 </body>
 </html>
